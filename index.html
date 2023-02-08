@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&family=Roboto:wght@300&display=swap" rel="stylesheet">    <title>Document</title>
+</head>
+<body>
+
+<section id="calculadora">
+    <h1>Calculadora Basica</h1>
+    <br>
+   <div>
+    <div id="visor">
+        <h5 id="visorarriba"> </h5>
+      <h4 id="visorabajo">0</h4>
+      
+     </div>
+ <div id="botones">
+    <div>
+    <button id="ce" class="inicio" data-number-type="CE">CE</button>
+    <button id="cbutton"  class="inicio"data-type="C">C</button>
+    <button id="masmenos" class="signos" data-number-type="±">±</button>
+    <button id="porcentaje" class="signos" data-number-type="%">%</button>
+    </div>
+    <div>
+    <button id="n7" class="numero" data-number-type="7">7</button>
+    <button id="n8" class="numero" data-number-type="8">8</button>
+    <button id="n9" class="numero" data-number-type="9">9</button>
+    <button id="division" class="signos" data-number-type="÷">÷</button>
+</div>
+<div>
+    <button id="n4" class="numero" data-number-type="4">4</button>
+    <button id="n5" class="numero" data-number-type="5">5</button>
+    <button id="n6" class="numero" data-number-type="6">6</button>
+    <button id="multiplicacion" class="signos" data-number-type="*">×</button>
+</div>
+<div>
+    <button id="n1" class="numero" data-number-type="1">1</button>
+    <button id="n2" class="numero" data-number-type="2">2</button>
+    <button id="n3" class="numero" data-number-type="3">3</button>
+    <button id="resta" class="signos" data-number-type="-">-</button>
+</div>
+<div>
+    <button id="n0" class="numero" data-number-type="0">0</button>
+    <button id="punto"class="numero" data-number-type=".">.</button>
+    <button id="igual"class="igual" data-number-type="=">=</button>
+    <button id="suma" class="signos" data-number-type="+">+</button>
+</div></div>   
+</div>
+</section>
+
+<section id="Historial">
+    <h1>Calculadora Basica</h1>
+     <h2>Historial</h2>
+     <div id="resultadohistorial">
+     <table>
+        <tr> 
+            <td>Fecha</td>
+            <td style="
+            padding-left: 60px">Operación</td>
+            <td style="
+            padding-left: 10px;
+            width: 80px;
+        ">Resultado</td>
+        </tr>
+    </table>
+    <table>
+        
+       <table id="historialresult"></table>
+       
+    </table>
+</div>
+</section>
+<script src="/index.js"></script>
+</body>
+</html>
+
